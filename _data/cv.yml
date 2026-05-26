@@ -34,23 +34,28 @@ cv:
         start_date: 2024-03
 
     Awards:
-      - title: Undergraduate Paper Award
-        authors:
-          - Institute of Control, Robotics and Systems
-        date: 2023
-        awarder: ICROS
-        url: http://2023.icros.org/?page_id=61
-        summary: Awarded for the paper "Autonomous Multi-Robot Parking System."
-
       - title: ICCV 2023 SLAM Challenge
         authors:
           - Taeyoung Kim
-          - Jaewon Lee
+          - <u>Jaewon Lee</u>   # 밑줄 처리
           - Beomsoo Kim
           - Euntai Kim
         date: 2023
         awarder: ICCV
         summary: Fourth place in the LiDAR-Inertial Track.
+
+      - title: Undergraduate Paper Award
+        authors:
+          - <u>Jaewon Lee</u> # 밑줄 처리
+          - Hyoseok Joo
+          - Chunggil An
+          - Hyedo Kim
+          - Jeonghyun Oh
+        date: 2023
+        awarder: ICROS
+        url: http://2023.icros.org/?page_id=61
+        summary: Awarded for the paper "Autonomous Multi-Robot Parking System."
+
 
     Publications:
       - title: "Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty"
