@@ -292,6 +292,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year, domestic_last
+  order: descending, ascending
   group_by: year
   group_order: descending
 
