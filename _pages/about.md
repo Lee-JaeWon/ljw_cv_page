@@ -15,7 +15,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="text-center">
-      <p class="mb-1">Ph.D. Student, CILAB</p>
+      <p class="mb-1">leejaewon@yonsei.ac.kr</p>
       <p class="mb-1">Yonsei University, Seoul, Republic of Korea</p>
       <p class="mb-0">
         <a href="https://scholar.google.com/citations?hl=ko&user=y4_nryAAAAAJ"><b>Google Scholar</b></a>
