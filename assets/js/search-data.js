@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Selected research projects in robot localization, SLAM, and 3D scene representation.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/ljw_cv_page/projects/";
@@ -41,6 +41,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/Lee-JaeWon", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jaewon-lee-profile", "_blank");
         },
       },{
         id: 'social-scholar',
