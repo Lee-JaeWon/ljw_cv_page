@@ -38,7 +38,7 @@ cv:
         authors:
           - Institute of Control, Robotics and Systems
         date: 2023
-        awarder: ICROS 2023
+        awarder: ICROS
         url: http://2023.icros.org/?page_id=61
         summary: Awarded for the paper "Autonomous Multi-Robot Parking System."
 
@@ -49,7 +49,7 @@ cv:
           - Beomsoo Kim
           - Euntai Kim
         date: 2023
-        awarder: ICCV 2023 SLAM Challenge
+        awarder: ICCV
         summary: Fourth place in the LiDAR-Inertial Track.
 
     Publications:
