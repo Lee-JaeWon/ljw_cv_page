@@ -24,7 +24,7 @@ profile:
       </p>
     </div>
 selected_papers: true # includes a list of papers marked as "selected={true}"
-show_overview: true
+show_overview: false
 social: true # includes social icons at the bottom of the page
 
 announcements:
