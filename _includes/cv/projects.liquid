@@ -21,7 +21,13 @@
         <ul class="items">
           {% for item in entry.highlights %}
             <li>
-              <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+              <span class="item">
+                {% if item.label %}
+                  <strong>{{ item.label }}:</strong> {{ item.details }}
+                {% else %}
+                  {{ item | markdownify | remove: '<p>' | remove: '</p>' }}
+                {% endif %}
+              </span>
             </li>
           {% endfor %}
         </ul>
