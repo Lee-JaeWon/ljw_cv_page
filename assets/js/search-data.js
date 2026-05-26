@@ -30,26 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ljw_cv_page/cv/";
           },
-        },{id: "projects-dgs-slam",
-          title: 'DGS-SLAM',
-          description: "arXiv 2024 · Gaussian Splatting SLAM in dynamic environments",
+        },{id: "projects-development-of-cooperate-mapping-environment-recognition-and-autonomous-driving-technology-for-multi-mobile-robots-operating-in-large-scale-indoor-workspace",
+          title: 'Development of Cooperate Mapping, Environment Recognition and Autonomous Driving Technology for Multi Mobile...',
+          description: "2023.04.01 - 2026.12.31 · MOTIE / KEIT funded project",
           section: "Projects",handler: () => {
-              window.location.href = "/ljw_cv_page/projects/dgs-slam/";
-            },},{id: "projects-fast-loc-nerf",
-          title: 'Fast-Loc-NeRF',
-          description: "ICRA 2025 · Fast global localization on neural radiance fields",
-          section: "Projects",handler: () => {
-              window.location.href = "/ljw_cv_page/projects/fast-loc-nerf/";
-            },},{id: "projects-geomgs",
-          title: 'GeomGS',
-          description: "arXiv 2025 · LiDAR-guided geometry-aware Gaussian Splatting for robot localization",
-          section: "Projects",handler: () => {
-              window.location.href = "/ljw_cv_page/projects/geomgs/";
-            },},{id: "projects-ugsloc",
-          title: 'UGSLoc',
-          description: "CVPR 2026 · Rethinking pose refinement in 3D Gaussian Splatting under pose prior and geometric uncertainty",
-          section: "Projects",handler: () => {
-              window.location.href = "/ljw_cv_page/projects/ugsloc/";
+              window.location.href = "/ljw_cv_page/projects/collaborative-multi-robot-navigation/";
             },},{
         id: 'social-github',
         title: 'GitHub',
