@@ -1,0 +1,21 @@
+"kim":
+  - firstname: ["Euntai", "E."]
+    url: https://cilab.yonsei.ac.kr/
+    affiliation: Yonsei University
+
+"kong":
+  - firstname: ["Mangyu", "M."]
+    url: https://kmk97.github.io/
+    affiliation: Yonsei University
+
+"lee":
+  - firstname: ["Jaewon", "J."]
+    url: https://lee-jaewon.github.io/ljw_cv_page/
+    affiliation: Yonsei University
+  - firstname: ["Seongwon", "S."]
+    url: https://sungonce.github.io/
+    affiliation: Kookmin University
+
+"park":
+  - firstname: ["Minseong", "M."]
+    affiliation: Yonsei University

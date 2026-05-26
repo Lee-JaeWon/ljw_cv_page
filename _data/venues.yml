@@ -1,0 +1,15 @@
+"ICRA":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  color: "#1f77b4"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#8e44ad"
+
+"ICROS":
+  url: https://www.icros.org/
+  color: "#009f36"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"

@@ -1,0 +1,141 @@
+cv:
+  name: Lee Jaewon
+  label: Ph.D. Student in Electrical and Electronic Engineering
+  location: Seoul, Republic of Korea
+  image: ""
+  website: https://lee-jaewon.github.io/ljw_cv_page/
+  summary: Ph.D. student at CILAB, Yonsei University, researching mobile robotics, SLAM, robot localization, and 3D scene representation. Recent work focuses on Gaussian splatting, neural radiance fields, and geometry-aware localization for real-world robotics.
+
+  address:
+    city: Seoul
+    countryCode: KR
+
+  sections:
+    Education:
+      - institution: Yonsei University
+        location: Seoul, Republic of Korea
+        url: https://www.yonsei.ac.kr/
+        area: Electrical and Electronic Engineering
+        studyType: Ph.D. Student
+        start_date: 2024-03
+        highlights:
+          - Member of CILAB (Computational Intelligence Laboratory).
+          - Research focus on mobile robotics, SLAM, localization, and 3D scene representation.
+
+      - institution: Kwangwoon University
+        location: Seoul, Republic of Korea
+        url: https://www.kw.ac.kr/
+        area: Robotics
+        studyType: B.S.
+        start_date: 2020-03
+        end_date: 2024-02
+        highlights:
+          - Undergraduate studies in robotics with projects in navigation, localization, and multi-robot systems.
+
+    Experience:
+      - company: CILAB, Yonsei University
+        position: Ph.D. Student
+        location: Seoul, Republic of Korea
+        start_date: 2024-03
+        summary: Researcher working on robot localization, SLAM, and geometry-aware 3D scene representation.
+        highlights:
+          - Develops localization and mapping methods based on Gaussian splatting and neural radiance fields.
+          - Studies robust pose refinement and geometric uncertainty for real-world robotics applications.
+
+    Awards:
+      - title: ICROS 2023 Paper Award
+        authors:
+          - Institute of Control, Robotics and Systems
+        date: 2023
+        awarder: ICROS 2023
+        url: http://2023.icros.org/?page_id=61
+        summary: Awarded for the paper "Autonomous Multi-Robot Parking System."
+
+    Publications:
+      - title: "DGS-SLAM: Gaussian Splatting SLAM in Dynamic Environments"
+        publisher: "arXiv preprint arXiv:2411.10722"
+        releaseDate: 2024
+        url: https://arxiv.org/abs/2411.10722
+        summary: Dynamic-scene SLAM framework that integrates Gaussian splatting with robust filtering and loop-aware optimization.
+
+      - title: Fast Global Localization on Neural Radiance Field
+        publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2406.12202
+        summary: Efficient global localization on NeRF maps using coarse-to-fine matching and particle rejection weighting.
+
+      - title: "GeomGS: LiDAR-Guided Geometry-Aware Gaussian Splatting for Robot Localization"
+        publisher: "arXiv preprint arXiv:2501.13417"
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2501.13417
+        summary: Geometry-aware Gaussian splatting method that integrates LiDAR priors for metrically consistent mapping and localization.
+
+      - title: "Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty"
+        publisher: "arXiv preprint arXiv:2603.16538"
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2603.16538
+        summary: Pose refinement framework that models both pose-prior uncertainty and geometric uncertainty in 3D Gaussian splatting.
+
+      - title: Generative Model-Based Image Deblurring For Gaussian Splatting
+        publisher: Proceedings of the Conference of the Institute of Control, Robotics and Systems
+        releaseDate: 2025
+        url: https://cilab.yonsei.ac.kr/others/
+        summary: Conference paper on deblurring strategies for Gaussian splatting-based scene representation.
+
+      - title: Autonomous Multi-Robot Parking System
+        publisher: Proceedings of the Conference of the Institute of Control, Robotics and Systems
+        releaseDate: 2023
+        url: https://github.com/Lee-JaeWon/Autonomous-Multi-Robot-Parking-System
+        summary: Multi-robot parking system project covering navigation, localization, and system integration.
+
+    Skills:
+      - name: Research Interests
+        level: Focus
+        icon: fa-solid fa-compass
+        keywords:
+          - Mobile Robotics
+          - SLAM
+          - Robot Localization
+          - 3D Gaussian Splatting
+          - Neural Radiance Fields
+          - Multi-Robot Systems
+
+      - name: Technical Stack
+        level: Applied
+        icon: fa-solid fa-code
+        keywords:
+          - Python
+          - C++
+          - ROS
+          - PyTorch
+          - Computer Vision
+          - Deep Learning
+
+    Projects:
+      - name: UGSLoc
+        url: https://arxiv.org/abs/2603.16538
+        summary: Pose refinement framework for 3D Gaussian splatting under pose prior and geometric uncertainty.
+        highlights:
+          - Monte Carlo pose sampling
+          - Fisher information-guided PnP optimization
+
+      - name: GeomGS
+        url: https://arxiv.org/abs/2501.13417
+        summary: LiDAR-guided geometry-aware Gaussian splatting for accurate robot localization.
+        highlights:
+          - Geometry-aware 3D scene representation
+          - LiDAR-integrated localization pipeline
+
+      - name: Fast-Loc-NeRF
+        url: https://arxiv.org/abs/2406.12202
+        summary: Fast and accurate global localization on NeRF maps.
+        highlights:
+          - Coarse-to-fine localization
+          - Particle rejection weighting
+
+      - name: DGS-SLAM
+        url: https://arxiv.org/abs/2411.10722
+        summary: Gaussian splatting SLAM for dynamic environments.
+        highlights:
+          - Robust dynamic filtering
+          - Loop-aware map optimization

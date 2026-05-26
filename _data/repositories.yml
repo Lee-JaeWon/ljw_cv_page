@@ -1,0 +1,11 @@
+github_users:
+  - Lee-JaeWon
+
+repo_description_lines_max: 2
+
+github_repos:
+  - Lee-JaeWon/Autonomous-Multi-Robot-Parking-System
+  - Lee-JaeWon/Multi-Turtlebot3-Cartographer-And-Localization
+  - Lee-JaeWon/Multi-Robot-Collision-Avoidance-with-VO
+  - Lee-JaeWon/2024-Arxiv-Paper-List-Gaussian-Splatting
+  - Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph
