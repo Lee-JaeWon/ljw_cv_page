@@ -42,4 +42,4 @@ I am Jaewon Lee, a Ph.D. student in Electrical and Electronic Engineering at Yon
 
 My research focuses on Multi-Robot Systems, 3D Scene Representation, and Reinforcement Learning.
 
-This site contains publications, project summaries, and my academic CV. Contact details and additional profile information will be expanded as the site continues to be personalized.
+This site contains publications, project summaries, and my CV. Contact details and additional profile information will be expanded as the site continues to be personalized.
