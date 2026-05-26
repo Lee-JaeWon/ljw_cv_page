@@ -1,0 +1,15 @@
+---
+layout: page
+permalink: /publications/domestic-extended-abstract/
+title: Domestic/Extended Abstract
+description: domestic and extended abstract publications by year.
+hide_citation_metrics: true
+---
+
+<p class="mb-3">
+  <a href="{{ '/publications/' | relative_url }}">[Publications]</a>
+</p>
+
+<div class="publications">
+  {% bibliography --query @*[publication_group=domestic_extended] %}
+</div>

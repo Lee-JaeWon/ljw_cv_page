@@ -7,8 +7,6 @@ category: work
 img: /assets/img/robots.png
 ---
 
-{% include figure.liquid path="/assets/img/robots.png" class="img-fluid rounded z-depth-1 mb-3" alt="Multi-mobile robots used in the project" %}
-
 **Project period:** 2023.04.01 - 2026.12.31
 
 **Role:** Primary Contributor

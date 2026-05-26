@@ -328,6 +328,7 @@ filtered_bibtex_keywords:
     pdf,
     pmid,
     poster,
+    publication_group,
     preview,
     selected,
     slides,

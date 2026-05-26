@@ -14,8 +14,12 @@ hide_citation_metrics: true
 
 {% include bib_search.liquid %}
 
+<p class="mb-3">
+  <a href="{{ '/publications/domestic-extended-abstract/' | relative_url }}">[Domestic/Extended Abstract]</a>
+</p>
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[publication_group!=domestic_extended] %}
 
 </div>

@@ -64,11 +64,23 @@ cv:
         url: https://arxiv.org/abs/2603.16538
         # summary: Pose refinement framework that models both pose-prior uncertainty and geometric uncertainty in 3D Gaussian splatting.
 
+      - title: "PCR-VPR: Pose-Constrained Retrieval-based VPR for 3D LiDAR Localization Recovery"
+        publisher: Institute of Control, Robotics and Systems (Domestic)
+        releaseDate: 2026
+
+      - title: "Aggregation-Token-Guided Token Merging for Efficient Visual Place Recognition"
+        publisher: Institute of Control, Robotics and Systems (Domestic)
+        releaseDate: 2026
+
       - title: Fast Global Localization on Neural Radiance Field
         publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
         releaseDate: 2025
         url: https://arxiv.org/abs/2406.12202
         # summary: Efficient global localization on NeRF maps using coarse-to-fine matching and particle rejection weighting.
+
+      - title: "Empowering 4D Gaussian Splatting with Semantic Feature Embeddings for Dynamic Scene Modeling"
+        publisher: International Conference on Control, Automation and Systems (ICCAS)
+        releaseDate: 2025
 
       - title: "GeomGS: LiDAR-Guided Geometry-Aware Gaussian Splatting for Robot Localization"
         publisher: "arXiv preprint arXiv:2501.13417"

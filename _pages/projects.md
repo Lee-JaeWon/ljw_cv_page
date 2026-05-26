@@ -12,11 +12,20 @@ nav_order: 3
 <div class="project-list">
   {% for project in sorted_projects %}
     <div class="project-entry mb-4">
-      <h2 class="h5 mb-2">{{ project.title }}</h2>
-      {% if project.description %}
-        <p class="text-muted mb-2">{{ project.description }}</p>
-      {% endif %}
-      <div>{{ project.content | markdownify }}</div>
+      <div class="row align-items-start">
+        {% if project.img %}
+          <div class="col-md-3 col-lg-2 mb-3 mb-md-0">
+            {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 992px) 180px, (min-width: 768px) 25vw, 90vw" alt="project thumbnail" class="img-fluid rounded z-depth-1" %}
+          </div>
+        {% endif %}
+        <div class="{% if project.img %}col-md-9 col-lg-10{% else %}col-12{% endif %}">
+          <h2 class="h5 mb-2">{{ project.title }}</h2>
+          {% if project.description %}
+            <p class="text-muted mb-2">{{ project.description }}</p>
+          {% endif %}
+          <div>{{ project.content | markdownify }}</div>
+        </div>
+      </div>
     </div>
   {% endfor %}
 </div>
