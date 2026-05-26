@@ -43,43 +43,6 @@ My research focuses on multi-robot systems, robot localization, and 3D scene rep
 
 This site contains selected publications, project summaries, and my academic CV. Contact details and additional profile information will be expanded as the site continues to be personalized.
 
-{% assign total_citations = 0 %}
-{% if site.data.citations and site.data.citations.papers %}
-  {% for paper in site.data.citations.papers %}
-    {% assign total_citations = total_citations | plus: paper[1].citations %}
-  {% endfor %}
-{% endif %}
-
-<div class="mt-5">
-  <h2 class="mb-3">Overview</h2>
-  <div class="row">
-    <div class="col-sm-6 col-lg-3 mb-3">
-      <div class="border rounded p-3 h-100">
-        <div class="text-muted small">Total Stars</div>
-        <div class="h4 mb-0" id="github-total-stars">-</div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-3 mb-3">
-      <div class="border rounded p-3 h-100">
-        <div class="text-muted small">Total Commits</div>
-        <div class="h4 mb-0" id="github-total-commits">-</div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-3 mb-3">
-      <div class="border rounded p-3 h-100">
-        <div class="text-muted small">Total PRs</div>
-        <div class="h4 mb-0" id="github-total-prs">-</div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-3 mb-3">
-      <div class="border rounded p-3 h-100">
-        <div class="text-muted small">Total Citations</div>
-        <div class="h4 mb-0">{{ total_citations }}</div>
-      </div>
-    </div>
-  </div>
-  <p class="text-muted small mb-0">GitHub metrics are fetched from public GitHub data at page load.</p>
-</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
@@ -151,3 +114,35 @@ This site contains selected publications, project summaries, and my academic CV.
   });
 </script>
 
+
+{% assign total_citations = 0 %}
+{% if site.data.citations and site.data.citations.papers %}
+  {% for paper in site.data.citations.papers %}
+    {% assign total_citations = total_citations | plus: paper[1].citations %}
+  {% endfor %}
+{% endif %}
+
+<div class="mt-5">
+  <h2 class="mb-3">Overview</h2>
+  <div class="row">
+    <div class="col-sm-6 col-lg-3 mb-3">
+      <div class="border rounded p-3 h-100">
+        <div class="text-muted small">Total GitHub Stars</div>
+        <div class="h4 mb-0" id="github-total-stars">-</div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-3 mb-3">
+      <div class="border rounded p-3 h-100">
+        <div class="text-muted small">Total GitHub Commits</div>
+        <div class="h4 mb-0" id="github-total-commits">-</div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-3 mb-3">
+      <div class="border rounded p-3 h-100">
+        <div class="text-muted small">Total Citations</div>
+        <div class="h4 mb-0">{{ total_citations }}</div>
+      </div>
+    </div>
+  </div>
+  <!-- <p class="text-muted small mb-0">GitHub metrics are fetched from public GitHub data at page load.</p> -->
+</div>
