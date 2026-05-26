@@ -57,37 +57,37 @@ cv:
         publisher: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
         releaseDate: 2026
         url: https://arxiv.org/abs/2603.16538
-        summary: Pose refinement framework that models both pose-prior uncertainty and geometric uncertainty in 3D Gaussian splatting.
+        # summary: Pose refinement framework that models both pose-prior uncertainty and geometric uncertainty in 3D Gaussian splatting.
 
       - title: Fast Global Localization on Neural Radiance Field
         publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
         releaseDate: 2025
         url: https://arxiv.org/abs/2406.12202
-        summary: Efficient global localization on NeRF maps using coarse-to-fine matching and particle rejection weighting.
+        # summary: Efficient global localization on NeRF maps using coarse-to-fine matching and particle rejection weighting.
 
       - title: "GeomGS: LiDAR-Guided Geometry-Aware Gaussian Splatting for Robot Localization"
         publisher: "arXiv preprint arXiv:2501.13417"
         releaseDate: 2025
         url: https://arxiv.org/abs/2501.13417
-        summary: Geometry-aware Gaussian splatting method that integrates LiDAR priors for metrically consistent mapping and localization.
+        # summary: Geometry-aware Gaussian splatting method that integrates LiDAR priors for metrically consistent mapping and localization.
 
       - title: Generative Model-Based Image Deblurring For Gaussian Splatting
         publisher: Proceedings of the Conference of the Institute of Control, Robotics and Systems (Domestic)
         releaseDate: 2025
         url: https://cilab.yonsei.ac.kr/others/
-        summary: Conference paper on deblurring strategies for Gaussian splatting-based scene representation.
+        # summary: Conference paper on deblurring strategies for Gaussian splatting-based scene representation.
 
       - title: "DGS-SLAM: Gaussian Splatting SLAM in Dynamic Environments"
         publisher: "arXiv preprint arXiv:2411.10722"
         releaseDate: 2024
         url: https://arxiv.org/abs/2411.10722
-        summary: Dynamic-scene SLAM framework that integrates Gaussian splatting with robust filtering and loop-aware optimization.
+        # summary: Dynamic-scene SLAM framework that integrates Gaussian splatting with robust filtering and loop-aware optimization.
 
       - title: Autonomous Multi-Robot Parking System
         publisher: Proceedings of the Conference of the Institute of Control, Robotics and Systems (Domestic)
         releaseDate: 2023
         url: https://github.com/Lee-JaeWon/Autonomous-Multi-Robot-Parking-System
-        summary: Multi-robot parking system project covering navigation, localization, and system integration.
+        # summary: Multi-robot parking system project covering navigation, localization, and system integration.
 
     Projects:
       - name: Development of Cooperate Mapping, Environment Recognition and Autonomous Driving Technology for Multi Mobile Robots Operating in Large-scale Indoor Workspace

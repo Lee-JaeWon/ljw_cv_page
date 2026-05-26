@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description:
 nav: true
@@ -24,7 +24,7 @@ nav_order: 3
 {% assign awards = site.data.cv.cv.sections.Awards %}
 {% if awards and awards.size > 0 %}
   <div class="awards-section mt-5">
-    <h2 class="mb-3">awards</h2>
+    <h2 class="mb-3">Awards</h2>
     {% assign entries = awards %}
     {% include cv/awards.liquid %}
   </div>
