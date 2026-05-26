@@ -38,8 +38,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Jaewon Lee, a Ph.D. student in Electrical and Electronic Engineering at Yonsei University and a member of CILAB.
+I am Jaewon Lee, a Ph.D. student in Electrical and Electronic Engineering at Yonsei University and a member of [CILAB](https://cilab.yonsei.ac.kr/).
 
-My research focuses on multi-robot systems, robot localization, and 3D scene representation.
+My research focuses on Multi-Robot Systems, Robot Localization, 3D Scene Representation, and Reinforcement Learning.
 
-This site contains selected publications, project summaries, and my academic CV. Contact details and additional profile information will be expanded as the site continues to be personalized.
+This site contains publications, project summaries, and my academic CV. Contact details and additional profile information will be expanded as the site continues to be personalized.
