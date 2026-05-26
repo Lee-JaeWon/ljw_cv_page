@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Lee
+first_name: Jaewon
 middle_name:
-last_name: Jaewon
+last_name: Lee
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Lee Jaewon's research page on mobile robotics, SLAM, localization, and 3D scene representation.

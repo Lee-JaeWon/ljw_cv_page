@@ -1,5 +1,5 @@
 cv:
-  name: Lee Jaewon
+  name: Jaewon Lee
   label: Ph.D. Student in Electrical and Electronic Engineering
   location: Seoul, Republic of Korea
   image: ""
@@ -71,7 +71,7 @@ cv:
         summary: Geometry-aware Gaussian splatting method that integrates LiDAR priors for metrically consistent mapping and localization.
 
       - title: "Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty"
-        publisher: "arXiv preprint arXiv:2603.16538"
+        publisher: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
         releaseDate: 2026
         url: https://arxiv.org/abs/2603.16538
         summary: Pose refinement framework that models both pose-prior uncertainty and geometric uncertainty in 3D Gaussian splatting.
@@ -112,30 +112,8 @@ cv:
           - Deep Learning
 
     Projects:
-      - name: UGSLoc
-        url: https://arxiv.org/abs/2603.16538
-        summary: Pose refinement framework for 3D Gaussian splatting under pose prior and geometric uncertainty.
+      - name: Development of Cooperate Mapping, Environment Recognition and Autonomous Driving Technology for Multi Mobile Robots Operating in Large-scale Indoor Workspace
+        summary: Government-funded R&D project on cooperate mapping, environment recognition, and autonomous driving technology for multi mobile robots operating in a large-scale indoor workspace.
         highlights:
-          - Monte Carlo pose sampling
-          - Fisher information-guided PnP optimization
-
-      - name: GeomGS
-        url: https://arxiv.org/abs/2501.13417
-        summary: LiDAR-guided geometry-aware Gaussian splatting for accurate robot localization.
-        highlights:
-          - Geometry-aware 3D scene representation
-          - LiDAR-integrated localization pipeline
-
-      - name: Fast-Loc-NeRF
-        url: https://arxiv.org/abs/2406.12202
-        summary: Fast and accurate global localization on NeRF maps.
-        highlights:
-          - Coarse-to-fine localization
-          - Particle rejection weighting
-
-      - name: DGS-SLAM
-        url: https://arxiv.org/abs/2411.10722
-        summary: Gaussian splatting SLAM for dynamic environments.
-        highlights:
-          - Robust dynamic filtering
-          - Loop-aware map optimization
+          - Period: 2023.04.01 - 2026.12.31
+          - Funder: Ministry of Trade, Industry and Energy (MOTIE) / Korea Evaluation Institute of Industrial Technology (KEIT)
