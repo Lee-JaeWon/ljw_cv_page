@@ -203,7 +203,7 @@
           {% endif %}
         {% endfor %}
       {% endif %}
-      {% if page.permalink == '/publications/' and page.hide_citation_metrics != true and publication_citations != '' and publication_citations != 0 and publication_citations != '0' %}
+      {% if page.permalink == '/publications/' and publication_citations != '' and publication_citations != 0 and publication_citations != '0' %}
         <a class="btn btn-sm z-depth-0" role="button">Citations {{ publication_citations }}</a>
       {% endif %}
       {% if entry.award %}
@@ -276,7 +276,7 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
-    {% if site.enable_publication_badges and page.hide_citation_metrics != true %}
+    {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
         {% assign entry_has_altmetric_badge = true %}

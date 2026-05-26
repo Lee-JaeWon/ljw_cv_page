@@ -77,7 +77,7 @@ cv:
         # summary: Geometry-aware Gaussian splatting method that integrates LiDAR priors for metrically consistent mapping and localization.
 
       - title: Generative Model-Based Image Deblurring For Gaussian Splatting
-        publisher: Institute of Control, Robotics and Systems (Domestic)
+        publisher: Proceedings of the Conference of the Institute of Control, Robotics and Systems (Domestic)
         releaseDate: 2025
         url: https://cilab.yonsei.ac.kr/others/
         # summary: Conference paper on deblurring strategies for Gaussian splatting-based scene representation.
@@ -89,7 +89,7 @@ cv:
         # summary: Dynamic-scene SLAM framework that integrates Gaussian splatting with robust filtering and loop-aware optimization.
 
       - title: Autonomous Multi-Robot Parking System
-        publisher: Institute of Control, Robotics and Systems (Domestic)
+        publisher: Proceedings of the Conference of the Institute of Control, Robotics and Systems (Domestic)
         releaseDate: 2023
         url: https://github.com/Lee-JaeWon/Autonomous-Multi-Robot-Parking-System
         # summary: Multi-robot parking system project covering navigation, localization, and system integration.
