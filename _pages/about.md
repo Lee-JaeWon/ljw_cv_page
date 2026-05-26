@@ -20,6 +20,7 @@ profile:
       <p class="mb-0">
         <a href="https://scholar.google.com/citations?hl=ko&user=y4_nryAAAAAJ"><b>Google Scholar</b></a>
         | <a href="https://github.com/Lee-JaeWon"><b>GitHub</b></a>
+        | <a href="https://www.linkedin.com/in/jaewon-lee-profile"><b>LinkedIn</b></a>
       </p>
     </div>
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -36,7 +37,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Lee Jaewon, a Ph.D. student in Electrical and Electronic Engineering at Yonsei University and a member of CILAB.
+I am Jaewon Lee, a Ph.D. student in Electrical and Electronic Engineering at Yonsei University and a member of CILAB.
 
 My research focuses on mobile robotics, SLAM, robot localization, and 3D scene representation. Recently, I have been working on Gaussian splatting, neural radiance fields, geometric uncertainty, and localization methods that connect photorealistic mapping with robust real-world robotics.
 

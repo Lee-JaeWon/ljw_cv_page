@@ -1,7 +1,7 @@
 ---
 ---
 <div class="row">
-  {% if site.enable_publication_thumbnails and entry.preview %}
+  {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-4 abbr">
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
@@ -31,12 +31,19 @@
             alt=entry.preview
           %}
         {% endif %}
+      {% else %}
+        <div
+          class="preview z-depth-1 rounded d-flex align-items-center justify-content-center"
+          style="min-height: 180px; background-color: #f5f5f5; color: #888; font-size: 0.95rem;"
+        >
+          empty
+        </div>
       {% endif %}
     </div>
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails and entry.preview %}col-sm-8{% else %}col-sm-12{% endif %}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-12{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->

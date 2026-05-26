@@ -4,6 +4,7 @@
 # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 # Order here = left-to-right on the about page (jekyll-socials).
 github_username: Lee-JaeWon
+linkedin_username: jaewon-lee-profile
 scholar_userid: y4_nryAAAAAJ
 # rss_icon: true # disabled: no /feed.xml (jekyll-feed removed). Re-enable after adding jekyll-feed back if you want Atom again.
 # inspirehep_id: 1010907
