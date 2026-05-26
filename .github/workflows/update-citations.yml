@@ -10,6 +10,7 @@ on:
       - "_data/socials.yml"
       - "bin/update_scholar_citations.py"
       - "requirements.txt"
+      - ".github/workflows/update-citations.yml"
   schedule:
     - cron: "0 0 * * 1"
     - cron: "0 0 * * 3"

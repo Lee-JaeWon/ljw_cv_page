@@ -1,3 +1,27 @@
 metadata:
-  last_updated: "2026-05-26"
-papers: {}
+  last_updated: '2026-05-26'
+papers:
+  y4_nryAAAAAJ:2osOgNQ5qMEC:
+    citations: 2
+    title: 'GeomGS: LiDAR-Guided Geometry-Aware Gaussian Splatting for Robot Localization'
+    year: '2025'
+  y4_nryAAAAAJ:9yKSN-GCB0IC:
+    citations: 18
+    title: 'Dgs-slam: Gaussian splatting slam in dynamic environment'
+    year: '2024'
+  y4_nryAAAAAJ:UeHWp8X0CEIC:
+    citations: 0
+    title: Generative Model-Based Image Deblurring For Gaussian Splatting
+    year: '2025'
+  y4_nryAAAAAJ:d1gkVwhDpl0C:
+    citations: 2
+    title: Fast global localization on neural radiance field
+    year: '2025'
+  y4_nryAAAAAJ:u-x6o8ySG0sC:
+    citations: 0
+    title: "\uB2E4\uC911 \uC790\uC728 \uB85C\uBD07 \uC8FC\uCC28 \uC2DC\uC2A4\uD15C"
+    year: '2023'
+  y4_nryAAAAAJ:zYLM7Y9cAGgC:
+    citations: 1
+    title: Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty
+    year: '2026'
