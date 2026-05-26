@@ -37,10 +37,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Jaewon Lee, a Ph.D. student in Electrical and Electronic Engineering at Yonsei University and a member of CILAB.
+I am Jaewon Lee, a Ph.D. student in Electrical and Electronic Engineering at Yonsei University and a member of [CILAB](https://cilab.yonsei.ac.kr/).
 
-My research focuses on mobile robotics, SLAM, robot localization, and 3D scene representation. Recently, I have been working on Gaussian splatting, neural radiance fields, geometric uncertainty, and localization methods that connect photorealistic mapping with robust real-world robotics.
+My research focuses on multi-robot systems, robot localization, and 3D scene representation.
 
-This site collects selected publications, project summaries, and my academic CV. Contact details and profile assets can be expanded later as the site is further personalized.
+This site contains selected publications, project summaries, and my academic CV. Contact details and additional profile information will be expanded as the site continues to be personalized.
 
 
