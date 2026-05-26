@@ -50,6 +50,10 @@ nav_order: 3
             <p class="text-muted mb-1">{{ award_meta }}</p>
           {% endif %}
 
+          {% if award.authors and award.authors.size > 0 %}
+            <p class="mb-1">{{ award.authors | join: ", " }}</p>
+          {% endif %}
+
           {% if award.summary %}
             <div>{{ award.summary | markdownify }}</div>
           {% endif %}
