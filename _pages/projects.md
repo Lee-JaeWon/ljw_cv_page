@@ -25,7 +25,36 @@ nav_order: 3
 {% if awards and awards.size > 0 %}
   <div class="awards-section mt-5">
     <h2 class="mb-3">Awards</h2>
-    {% assign entries = awards %}
-    {% include cv/awards.liquid %}
+    <div class="award-list">
+      {% for award in awards %}
+        <div class="award-entry mb-4">
+          {% if award.url %}
+            <h3 class="h6 mb-1">
+              <a href="{{ award.url }}">{{ award.title }}</a>
+            </h3>
+          {% else %}
+            <h3 class="h6 mb-1">{{ award.title }}</h3>
+          {% endif %}
+
+          {% assign award_meta = '' %}
+          {% if award.awarder %}
+            {% assign award_meta = award.awarder %}
+          {% endif %}
+          {% if award.date %}
+            {% if award_meta != '' %}
+              {% assign award_meta = award_meta | append: ' · ' %}
+            {% endif %}
+            {% assign award_meta = award_meta | append: award.date %}
+          {% endif %}
+          {% if award_meta != '' %}
+            <p class="text-muted mb-1">{{ award_meta }}</p>
+          {% endif %}
+
+          {% if award.summary %}
+            <div>{{ award.summary | markdownify }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
 {% endif %}
