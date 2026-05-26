@@ -12,20 +12,11 @@ nav_order: 3
 <div class="project-list">
   {% for project in sorted_projects %}
     <div class="project-entry mb-4">
-      <div class="d-flex flex-column flex-sm-row align-items-start">
-        {% if project.img %}
-          <div class="abbr mb-3 mb-sm-0 mr-sm-2" style="width: 180px; flex: 0 0 180px;">
-            {% include figure.liquid loading="eager" path=project.img sizes="180px" alt="project thumbnail" class="preview z-depth-1 rounded" max-width="180px" %}
-          </div>
-        {% endif %}
-        <div class="flex-grow-1 w-100">
-          <h2 class="h5 mb-2">{{ project.title }}</h2>
-          {% if project.description %}
-            <p class="text-muted mb-2">{{ project.description }}</p>
-          {% endif %}
-          <div>{{ project.content | markdownify }}</div>
-        </div>
-      </div>
+      <h2 class="h5 mb-2">{{ project.title }}</h2>
+      {% if project.description %}
+        <p class="text-muted mb-2">{{ project.description }}</p>
+      {% endif %}
+      <div>{{ project.content | markdownify }}</div>
     </div>
   {% endfor %}
 </div>

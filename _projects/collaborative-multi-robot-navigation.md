@@ -4,7 +4,6 @@ title: Development of Cooperate Mapping, Environment Recognition and Autonomous 
 description: "2023.04.01 - 2026.12.31 · MOTIE / KEIT funded project"
 importance: 1
 category: work
-img: /assets/img/robots.png
 ---
 
 **Project period:** 2023.04.01 - 2026.12.31 (participated from 2024.03)
