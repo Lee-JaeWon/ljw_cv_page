@@ -20,3 +20,12 @@ nav_order: 3
     </div>
   {% endfor %}
 </div>
+
+{% assign awards = site.data.cv.cv.sections.Awards %}
+{% if awards and awards.size > 0 %}
+  <div class="awards-section mt-5">
+    <h2 class="mb-3">awards</h2>
+    {% assign entries = awards %}
+    {% include cv/awards.liquid %}
+  </div>
+{% endif %}

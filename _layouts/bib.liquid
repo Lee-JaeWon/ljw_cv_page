@@ -186,6 +186,25 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% assign publication_citations = '' %}
+      {% if page.permalink == '/publications/' and site.data.citations and site.data.citations.papers %}
+        {% assign entry_title_normalized = entry.title | downcase | replace: '{', '' | replace: '}', '' | replace: ':', '' | replace: '-', '' | replace: ',', '' | replace: '.', '' | replace: ' ', '' %}
+        {% for paper in site.data.citations.papers %}
+          {% assign paper_data = paper[1] %}
+          {% if paper_data.title and paper_data.year %}
+            {% assign paper_title_normalized = paper_data.title | downcase | replace: ':', '' | replace: '-', '' | replace: ',', '' | replace: '.', '' | replace: ' ', '' %}
+            {% assign paper_year = paper_data.year | append: '' %}
+            {% assign entry_year = entry.year | append: '' %}
+            {% if paper_year == entry_year and (entry_title_normalized contains paper_title_normalized or paper_title_normalized contains entry_title_normalized) %}
+              {% assign publication_citations = paper_data.citations %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if page.permalink == '/publications/' and publication_citations != '' and publication_citations != 0 and publication_citations != '0' %}
+        <a class="btn btn-sm z-depth-0" role="button">Citations {{ publication_citations }}</a>
+      {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
