@@ -59,7 +59,7 @@ cv:
 
     Publications:
       - title: "Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty"
-        publisher: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+        publisher: The IEEE/CVF Conference on Computer Vision and Pattern Recognition
         releaseDate: 2026
         url: https://arxiv.org/abs/2603.16538
         # summary: Pose refinement framework that models both pose-prior uncertainty and geometric uncertainty in 3D Gaussian splatting.
@@ -73,7 +73,7 @@ cv:
         releaseDate: 2026
 
       - title: Fast Global Localization on Neural Radiance Field
-        publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
+        publisher: IEEE International Conference on Robotics and Automation (ICRA)
         releaseDate: 2025
         url: https://arxiv.org/abs/2406.12202
         # summary: Efficient global localization on NeRF maps using coarse-to-fine matching and particle rejection weighting.
