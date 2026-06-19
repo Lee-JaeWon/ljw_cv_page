@@ -61,6 +61,7 @@ cv:
       - title: "Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration"
         publisher: European Conference on Computer Vision (ECCV) (Accepted)
         releaseDate: 2026
+        url: https://lee-jaewon.github.io/Graph-GSReg/
 
       - title: "Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty"
         publisher: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
