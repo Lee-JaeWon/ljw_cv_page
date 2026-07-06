@@ -112,6 +112,16 @@ cv:
         # summary: Multi-robot parking system project covering navigation, localization, and system integration.
 
     Projects:
+      - name: Development of Multi-Robot Gaussian Splatting SLAM and 3D Scene Graph-Based Map Integration
+        summary: Industry collaboration project on multi-robot Gaussian splatting SLAM and 3D scene graph-based map integration.
+        highlights:
+          - label: Role
+            details: Primary Contributor
+          - label: Period
+            details: 2026.07 - 2027.02
+          - label: Funder
+            details: Hyundai Motors
+
       - name: Development of Cooperate Mapping, Environment Recognition and Autonomous Driving Technology for Multi Mobile Robots Operating in Large-scale Indoor Workspace
         summary: Government-funded R&D project on cooperate mapping, environment recognition, and autonomous driving technology for multi mobile robots operating in a large-scale indoor workspace.
         highlights:
