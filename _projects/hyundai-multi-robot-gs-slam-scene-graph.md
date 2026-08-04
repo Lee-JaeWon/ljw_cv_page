@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Development of Multi-Robot Gaussian Splatting SLAM and 3D Scene Graph-Based Map Integration
-description: "2026.07 - 2027.02 · Hyundai Motors funded project"
+description: "2026.07 - 2027.02 · Hyundai Motor funded project"
 importance: 1
 category: work
 ---
@@ -10,4 +10,4 @@ category: work
 
 **Role:** Primary Contributor
 
-**Funding:** Hyundai Motors
+**Funding:** Hyundai Motor
