@@ -59,7 +59,7 @@ cv:
 
     Publications:
       - title: "Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration"
-        publisher: European Conference on Computer Vision (ECCV) (Accepted)
+        publisher: European Conference on Computer Vision (ECCV)
         releaseDate: 2026
         url: https://lee-jaewon.github.io/Graph-GSReg/
 
