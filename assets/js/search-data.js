@@ -37,7 +37,7 @@ ninja.data = [{
               window.location.href = "/ljw_cv_page/projects/collaborative-multi-robot-navigation/";
             },},{id: "projects-development-of-multi-robot-gaussian-splatting-slam-and-3d-scene-graph-based-map-integration",
           title: 'Development of Multi-Robot Gaussian Splatting SLAM and 3D Scene Graph-Based Map Integration',
-          description: "2026.07 - 2027.02 · Hyundai Motors funded project",
+          description: "2026.07 - 2027.02 · Hyundai Motor funded project",
           section: "Projects",handler: () => {
               window.location.href = "/ljw_cv_page/projects/hyundai-multi-robot-gs-slam-scene-graph/";
             },},{
