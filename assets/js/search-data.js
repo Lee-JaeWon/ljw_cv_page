@@ -40,6 +40,11 @@ ninja.data = [{
           description: "2026.07 - 2027.02 · Hyundai Motor funded project",
           section: "Projects",handler: () => {
               window.location.href = "/ljw_cv_page/projects/hyundai-multi-robot-gs-slam-scene-graph/";
+            },},{id: "projects-physical-ai-sdf-specialized-foundation-model-for-autonomous-factory-operations",
+          title: 'Physical AI SDF-Specialized Foundation Model for Autonomous Factory Operations',
+          description: "2026.09 - 2030.12.31 · MSIT / NIPA funded project",
+          section: "Projects",handler: () => {
+              window.location.href = "/ljw_cv_page/projects/physical-ai-sdf-autonomous-factory/";
             },},{
         id: 'social-github',
         title: 'GitHub',
