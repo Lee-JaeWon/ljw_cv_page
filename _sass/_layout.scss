@@ -55,4 +55,31 @@ body.sticky-bottom-footer {
 * Projects
 *****************************************************************************/
 
-// TODO: redefine projects layout.
+.project-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.project-entry {
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--global-text-color);
+  border-radius: 0.75rem;
+  background: transparent;
+  transition: transform 180ms ease;
+
+  &:hover,
+  &:focus-within {
+    transform: scale(1.01);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-entry {
+    transition: none;
+
+    &:hover,
+    &:focus-within {
+      transform: none;
+    }
+  }
+}

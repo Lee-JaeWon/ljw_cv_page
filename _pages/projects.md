@@ -11,7 +11,7 @@ nav_order: 3
 
 <div class="project-list">
   {% for project in sorted_projects %}
-    <div class="project-entry mb-4">
+    <div class="project-entry">
       <h2 class="h5 mb-2">{{ project.title }}</h2>
       {% if project.description %}
         <p class="text-muted mb-2">{{ project.description }}</p>
@@ -60,5 +60,6 @@ nav_order: 3
         </div>
       {% endfor %}
     </div>
+
   </div>
 {% endif %}

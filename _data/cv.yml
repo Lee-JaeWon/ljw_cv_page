@@ -37,7 +37,7 @@ cv:
       - title: ICCV 2023 SLAM Challenge
         authors:
           - Taeyoung Kim
-          - <u>Jaewon Lee</u>   # 밑줄 처리
+          - <u>Jaewon Lee</u> # 밑줄 처리
           - Beomsoo Kim
           - Euntai Kim
         date: 2023
@@ -55,7 +55,6 @@ cv:
         awarder: ICROS
         url: http://2023.icros.org/?page_id=61
         summary: Awarded for the paper "Autonomous Multi-Robot Parking System."
-
 
     Publications:
       - title: "Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration"
@@ -112,11 +111,25 @@ cv:
         # summary: Multi-robot parking system project covering navigation, localization, and system integration.
 
     Projects:
+      - name: Physical AI SDF-Specialized Foundation Model for Autonomous Factory Operations
+        summary: Government-funded R&D project on a Physical AI SDF-specialized foundation model for autonomous factory operations.
+        highlights:
+          - label: Role
+            details: Primary Contributor
+          - label: Institution
+            details: Yonsei University (Participating)
+          - label: Period
+            details: 2026.09 - 2030.12.31
+          - label: Funder
+            details: Ministry of Science and ICT (MSIT) / National IT Industry Promotion Agency (NIPA)
+
       - name: Development of Multi-Robot Gaussian Splatting SLAM and 3D Scene Graph-Based Map Integration
         summary: Industry collaboration project on multi-robot Gaussian splatting SLAM and 3D scene graph-based map integration.
         highlights:
           - label: Role
             details: Primary Contributor
+          - label: Institution
+            details: Yonsei University (Lead)
           - label: Period
             details: 2026.07 - 2027.02
           - label: Funder
@@ -127,6 +140,8 @@ cv:
         highlights:
           - label: Role
             details: Primary Contributor
+          - label: Institution
+            details: Yonsei University (Lead)
           - label: Period
             details: 2023.04.01 - 2026.12.31
           - label: Funder
