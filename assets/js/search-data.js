@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Academic background, research interests, selected publications, and project experience.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/ljw_cv_page/cv/";
