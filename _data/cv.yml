@@ -57,6 +57,11 @@ cv:
         summary: Awarded for the paper "Autonomous Multi-Robot Parking System."
 
     Publications:
+      - title: "TeamField: Reinforcement Learning for Humanoid Teams with Cooperative Motion Fields"
+        publisher: Under review
+        releaseDate: 2026
+        url: https://jinxxo-j.github.io/TeamField/
+
       - title: "Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration"
         publisher: European Conference on Computer Vision (ECCV)
         releaseDate: 2026
@@ -67,11 +72,6 @@ cv:
         releaseDate: 2026
         url: https://arxiv.org/abs/2603.16538
         # summary: Pose refinement framework that models both pose-prior uncertainty and geometric uncertainty in 3D Gaussian splatting.
-
-      - title: "TeamField: Reinforcement Learning for Humanoid Teams with Cooperative Motion Fields"
-        publisher: Under review
-        releaseDate: 2026
-        url: https://jinxxo-j.github.io/TeamField/
 
       - title: "PCR-VPR: Pose-Constrained Retrieval-based VPR for 3D LiDAR Localization Recovery"
         publisher: Institute of Control, Robotics and Systems (Domestic)
